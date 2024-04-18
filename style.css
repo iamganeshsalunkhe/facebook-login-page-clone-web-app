@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    background-color:rgb(224, 224, 224)
+
+}
+
+.main1{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 450px;
+}
+.heading{
+    color: blue;
+    margin: 10px;
+    font-size: x-large;
+    font-weight:bolder;
+}
+.subinfo1{
+    font-weight: 400;
+}
+
+.main2{
+    box-shadow: 2px 4px rgba(0,0,0,.1),
+    8px 16px rgba(0,0,0,.1);
+    width: 350px;
+    position: absolute;
+    display: block;    
+    left:70%;
+    top: 50%;
+    border:1px ghostwhite solid;
+    padding: 8px;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    background-color: white;
+}
+
+#title{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(86, 86, 225);
+}
+.username{
+    display: block;
+    padding: 12px;
+    width: 94%;
+    border-radius: 6px;
+    border: 1px black solid;
+    margin: 8px;
+    margin-top: 18px;
+    font-size: large;
+    
+}   
+.username:focus{
+    cursor: pointer;
+    border: 1px rgb(76, 76, 215) solid;
+}
+.password{
+    width: 94%;
+    display: block;
+    padding: 12px;
+    margin: 8px;
+    font-size: large;
+    border-radius: 6px;
+    border: 1px black solid;
+}
+.showpassword{
+    margin-left: 10px;
+}
+.password:hover{
+    cursor: pointer;
+    border: 1px rgb(112, 112, 238);
+}
+
+.LogIn{
+    width: 93%;
+    height: 40px;
+    margin: 10px;
+    margin-top: 15px;
+    background-color:#0866ff;
+    font-size: larger;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+/* .SignUp{
+    background-color: rgb(88, 243, 88);
+    padding: 8px;
+    margin: 8px;
+    border-radius: 20%;
+    font-weight: 600;
+    color: white;
+    
+} */
+.submain5 > .forgotpassword{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    margin-top: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+    font-size: small;
+}
+.forgotpassword:hover{
+    text-decoration: underline;
+}
+
+.SignUp{
+    width: 60%;
+    margin: 10px;
+    margin-left: 75px;
+    height: 50px;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 15px;
+    background-color: rgb(30, 142, 30);
+}
+.SignUp > a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 700;
+}
+.break{
+    border-bottom:2px solid #dadde1;
+    margin: 20px  16px;
+    
+
+}
