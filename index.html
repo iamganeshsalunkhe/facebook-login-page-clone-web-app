@@ -17,12 +17,12 @@
     </div>
     <div class='main2'>
         <div class="submain2">
-            <input type="email" class="username" placeholder="Email or Phone Number" required>
+            <input type="text" class="username" placeholder="Email or Phone Number" required>
         </div>
         <div class="submain3">
-            <input type="password" class="password" placeholder="Password" required>   
-            <input type="checkbox" name="vehicle1" value="" class="showpassword" >
-            <label for = "vehicle">Show Password</label>
+            <input type="password" class="passwordinput" placeholder="Password" id = "passwordInput"  required>   
+            <input type="checkbox" name="passwordtoggle" id="showpassword" onclick="togglePasswordVisibility()"  >
+            <label for = "showpassword">Show Password</label>
         </div>
         <div class="submain4">
             <button class="LogIn" type="submit">Log In</button>

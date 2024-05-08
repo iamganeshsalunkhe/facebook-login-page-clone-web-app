@@ -64,7 +64,7 @@ html , body{
     cursor: pointer;
     border: 1px rgb(76, 76, 215) solid;
 }
-.password{
+.passwordinput{
     width: 94%;
     display: block;
     padding: 12px;
@@ -73,7 +73,7 @@ html , body{
     border-radius: 6px;
     border: 1px black solid;
 }
-.showpassword{
+#showpassword{
     margin-left: 10px;
 }
 .password:hover{
