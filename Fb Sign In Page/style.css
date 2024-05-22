@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    position: absolute;
+    top: 8%;
+    left: 40%;
+}
+
+.submain1{
+    color: blue;
+    font-size: 30px;
+    font-weight:bolder;
+}
+.submain2{
+    width: 400px;
+    
+}
+
+#heading1{
+    font-size: larger;
+}
